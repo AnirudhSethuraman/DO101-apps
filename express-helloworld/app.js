@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!\n');
+  res.send('Hello World!\n This is Anirudh');
   res.send('This is Anirudh\n');
   res.send('welcome to my Red Hat openshift example \n :) :) ');
 });
